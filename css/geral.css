@@ -1,0 +1,19 @@
+/* CSS geral do site*/
+
+:root{
+    --cordeFundo1:#000000;
+    --corDeFundo2: #171717;
+    --corFontepadrao: #F3F5F9;
+    --fontePadrao: Verdana, Geneva, Tahoma, sans-serif;
+}   
+   
+
+body{
+    background-color: var(--cordeFundo1);
+    font-family: var(--corFontepadrao);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
