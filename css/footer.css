@@ -1,0 +1,23 @@
+/*CSSdo Rodapé da página*/
+
+footer{
+    background-color: var(--corDeFundo1);
+    text-align: center;
+    padding: 0.5em;
+}
+
+footer > p{
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+footer > p.inline{
+    display: inline;
+}
+
+footer > a{
+    color: var(--corFontePadrao);
+    text-decoration: none;
+}
+
+
