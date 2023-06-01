@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagens/favicon.png">
+    <link rel="stylesheet" href="../css/geral.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/pagina_inicial.css">
+    <link rel="stylesheet" href="../css/fale_conosco.css">
+    <title>Criptomoedas - fale Conosco</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mercado de Criptomoedas</h1>
+        <p>Tudo o que você precisa saber está aqui</p>
+    </header>
+    <nav>
+        <a href="pagina_inicial.html">Home</a>
+        <a href="moedas.html">Moedas</a>
+        <a href="noticia.html">Notícias</a>
+        <a href="fale conosco.html" class="link-ativo">Fale conosco</a>
+    </nav>
+    <h1 id="titulo">Fale conosco</h1>
+    <div id="formulario">
+        <form action="fale_conosco.html">method="post">
+            <label for="nome">Nome:*</label>
+            <input type="text" name="nome" id="nome" placeholder="seu nome completo" required>
+            <label for="email"><e-mail></E-mail></label>
+            <input type="e-mail" name="e-mail" id="email" placeholder="Seu melhor e-mail" required>
+            <label for="assunto">Assunto: </label>
+            <select name="assunto" id="assunto" required>
+                <option value="erro">reportar um erro</opttion>
+                <option value="noticia">Publicar uma notícia</option>
+                <option value="consultoria">Contratar consultoria</option>
+            </select>
+            <label for="mensagem">Mensagem: </label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="reset" id="Cancelar">Cancelar</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>site criado por autor anonimo Diciprina Desenvolvimento web I</p>
+        <p class="inline">Fonte: </p><a href="https://www.infomoney.com.br/guias/criptomoedas/"
+            target="_blank">https://www.infomoney.com.br/guias/criptomoedas/</a>
+    </footer>
+</body>
+
+
+</html>
